@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "exchange-rate"
+version = "0.1.0"
+description = ""
+authors = ["Saveliy <ya.savchik2000@mail.ru>"]
+readme = "README.md"
+packages = [{include = "exchange_rate"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytelegrambotapi = "^4.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
