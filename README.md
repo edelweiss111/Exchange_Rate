@@ -5,6 +5,7 @@ utils/
 1. functions.py - основные функции бота
 
 pyproject.toml - список зависимостей для poetry
+
 requirements.txt - список зависимостей для venv
 
 # Для запуска программы использовать файл "main.py"
